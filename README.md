@@ -32,5 +32,5 @@ Credit: Photo by <a href="https://unsplash.com/@nasrphotos?utm_source=unsplash&u
 
 ### Author
 
-<a href="https://github.com/StacyKioko/">Stacy Kioko</a>
-Email: <a href="stacy.mueke22@gmail.com">stacy.mueke22@gmail.com</a>
+- <a href="https://github.com/StacyKioko/">Stacy Kioko</a>
+- Email: <a href="stacy.mueke22@gmail.com">stacy.mueke22@gmail.com</a>
