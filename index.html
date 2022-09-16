@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    
+    <!-------- Introduction ------->
+
+    <div class="Introduction">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve our services</p>
+    </div>
+  
+    <!-------- Section 1 ------->
+    <div class="form">
+    <form id="survey-form">
+    <fieldset>
+      <label id="name-label">Full name:
+        <input id="name" type="text" placeholder="Enter your name" required>
+        </input>
+      </label>
+      <label id="email-label">Email:
+        <input id="email" type="email" placeholder="Enter your email" required>
+        </input>
+      </label>
+      <label id="number-label">Age:
+        <input id="number" type="number" placeholder="Age" min="13" Max="120">
+        </input>
+      </label>
+      <label id="option">Which is your best product from us?
+        <select id="dropdown">
+          <option value="">Select one</option>
+          <option value="1">Digital Payment services</option>
+          <option value="2">Mobile money transfer</option>
+          <option value="3">Forex</option>
+          <option value="4">Loans and Savings</option>
+          <option value="5">OTC Services</option>
+          <option value="6">Other</option>
+        </select>
+        </input>
+      </label>
+    </fieldset>
+
+    <!-------- Section 2 ------->
+    <fieldset>
+    <p>Please choose your account below</P>
+        <label for="student-account">
+          <input class="inline" type="radio" name="account-name" id="student-account" value="account" required checked> Student account</input>
+        </label>
+        <label id="account">
+          <input class="inline" type="radio" name="account-name" value="account" required> Personal account</input>
+        </label>
+        <label id="account">
+          <input class="inline" type="radio" name="account-name" value="account"> Corporate account</input>
+        </label>
+    <p class="branch">Which is your preferred branch</p>
+        <label id="branch">
+        <label for="Westlands"><input class="inline" type="checkbox" value="branch" id="Westlands">Westlands</input></label>
+        <label for="Eastlands"><input class="inline" type="checkbox" value="branch" id="Eastlands">Eastlands</input></label>
+        <label for="CBD"><input class="inline" type="checkbox" value="branch" id="CBD">Central Business District</input></label>
+        <label for="Queensway"><input class="inline" type="checkbox" value="branch" id="Queensway">Queensway</input></label>
+        <label for="Argwins"><input class="inline" type="checkbox" value="branch" id="Argwins">Argwins</input></label>
+        <label for="Mombasa-road"><input class="inline" type="checkbox" value="branch" id="Mombasa-road">Mombasa Road</input></label>
+        <label for="Kenyatta-Avenue"><input class="inline" type="checkbox" value="branch" id="Kenyatta-Avenue">Kenyatta Avenue</input></label>
+        </label>
+    </fieldset>
+
+    <!-------- Section 3 ------->
+    <fieldset>
+      <label for="textarea">We value your feedback <textarea id="textarea" placeholder="Enter your comments here..." cols="15" rows="5"></textarea></label>
+    </fieldset>
+    <input id="submit" type="submit" value="Submit" />
+  </form>
+    </div>
+  <body>
+</html>
