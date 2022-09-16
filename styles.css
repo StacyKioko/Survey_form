@@ -1,6 +1,10 @@
 Body {
     background-image: url(Images/building.jpg);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:multiply;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     line-height: 1.4;
 }
@@ -32,6 +36,7 @@ h1 {
     margin-top: 10px;
     margin-bottom: 30px;
     font-style: italic;
+    font-weight: normal;
 }
 
 .form {
@@ -40,7 +45,7 @@ h1 {
     min-width: 300px;
     margin: 0 auto;
     padding: 40px;
-    background-color: #224b74a9;
+    background-color: #224b74c9;
 }
 
 fieldset {
@@ -59,8 +64,16 @@ label {
     vertical-align: middle;
 }
 
+p {
+    font-weight: bold;
+}
+
 .branch {
     margin-top: 40px;
+}
+
+.feedback {
+    margin-bottom: 2px;
 }
 
 input,
@@ -69,7 +82,8 @@ select {
   margin: 10px 0;
   width: 100%;
   min-height: 2em;
-  border-radius: 6px;;
+  border-radius: 6px;
+  padding-left: 10px;
 }
 
 input, textarea {
@@ -87,12 +101,14 @@ input[type="submit"] {
     height: 2em;
     font-size: 1.1rem;
     background-color: green;
-    border-color: white;
+    border-color: green;
     min-width: 150px;
     border-radius: 6px 6px 6px 6px;
   }
 
   input[type="submit"]:hover {
     background-color: red;
+    border-color: red;
+    color: whitesmoke;
   }
 
