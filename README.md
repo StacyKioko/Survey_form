@@ -27,6 +27,10 @@ Build an app that is functionally similar to (https://survey-form.freecodecamp.r
 16. Inside the form element, you are presented with a button with id of submit to submit all the inputs
 
 
-## Image Source
+### Image Source
 Credit: Photo by <a href="https://unsplash.com/@nasrphotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hossein Nasr</a> on <a href="https://unsplash.com/t/textures-patterns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+
+### Author
+
+<a href="https://github.com/StacyKioko/">Stacy Kioko</a>
+Email: <a href="stacy.mueke22@gmail.com">stacy.mueke22@gmail.com</a>
